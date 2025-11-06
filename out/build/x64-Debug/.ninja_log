@@ -1,5 +1,10 @@
 # ninja log v6
-5	639	7841254916329765	CMakeFiles/C-RGS.dir/src/Main.cpp.obj	fa3e25af4b3abc8b
-641	948	7841254922690180	C-RGS.exe	4a37ec40aae0a2ce
-4	60	7841256625371970	CMakeFiles/C-RGS.dir/src/Application.cpp.obj	46e329df37484701
-60	276	7841256625937915	C-RGS.exe	a3485c1f7478f66f
+5	401	7841397843127129	CMakeFiles/C-RGS.dir/src/Main.cpp.obj	fa3e25af4b3abc8b
+402	1834	7841397847100602	C-RGS.exe	a3485c1f7478f66f
+11	303	7841397843199417	CMakeFiles/C-RGS.dir/src/Application.cpp.obj	46e329df37484701
+249	1348	7841468462886730	CMakeFiles/C-RGS.dir/src/Window.cpp.obj	c2581fe35fbd1935
+254	1351	7841468462937168	CMakeFiles/C-RGS.dir/src/WindowsWindow.cpp.obj	b1f641ee1c00c0e3
+17	528	7841473318857048	CMakeFiles/C-RGS.dir/src/WindowsWindow.cpp.obj	b1f641ee1c00c0e3
+9	284	7841475417121524	CMakeFiles/C-RGS.dir/src/Application.cpp.obj	46e329df37484701
+3	387	7841475417054306	CMakeFiles/C-RGS.dir/src/Main.cpp.obj	fa3e25af4b3abc8b
+387	1948	7841475420902337	C-RGS.exe	1013a87542c228f7
