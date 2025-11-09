@@ -20,7 +20,7 @@ namespace RGS
 	void WindowsWindow::Terminate()
 	{
 		//调用注销方法
-		ASSERT(!s_Inited);
+		ASSERT(s_Inited);
 		Unregister();
 		s_Inited = false;
 	}
@@ -53,6 +53,34 @@ namespace RGS
 	{
 		UnregisterClass(RGS_WINDOW_CLASS_NAME, GetModuleHandle(NULL));
 	}
+
+	void WindowsWindow::KeyPressImpl(WindowsWindow* window, const WPARAM wParam, const char state)
+	{
+		if (wParam >= '0' && wParam <= '9')
+		{
+			window->m_Keys[wParam] = state;
+			return;
+		}
+		if (wParam >= 'A' && wParam <= 'Z')
+		{
+			window->m_Keys[wParam] = state;
+			return;
+		}
+
+		//就如果在某个平台上，数字键和字母键（或者其他按键）的键码不是连续的，就需要单独处理
+		switch (wParam)
+		{
+			case VK_SPACE:
+				window->m_Keys[RGS_KEY_SPACE] = state;
+				break;
+			case VK_SHIFT:
+				window->m_Keys[RGS_KEY_SPACE] = state;
+				break;
+			default:
+				break;
+
+		}
+	}
 	LRESULT CALLBACK WindowsWindow::WndProc(const HWND hwnd, const UINT msgID, const WPARAM wParam, const LPARAM lParam)
 	{
 		WindowsWindow* window = (WindowsWindow*)GetProp(hwnd, RGS_WINDOW_ENTRY_NAME);
@@ -66,9 +94,25 @@ namespace RGS
 		{
 		case WM_DESTROY:
 			window->m_Closed = true;
-			return 0;			
+			return 0;		
+		case WM_KEYDOWN:
+			KeyPressImpl(window, wParam, RGS_PRESS);
+			break;
+		case WM_KEYUP:
+			KeyPressImpl(window, wParam, RGS_RELEASE);
+			break;
 		}
 		return DefWindowProc(hwnd, msgID, wParam, lParam);
+	}
+
+	void WindowsWindow::PollInputEvents()
+	{
+		MSG msg;
+		while (PeekMessage(&msg, NULL, 0, 0, PM_REMOVE))
+		{
+			TranslateMessage(&msg);
+			DispatchMessage(&msg);
+		}
 	}
 	
 	void WindowsWindow::Show() const
@@ -148,6 +192,38 @@ namespace RGS
 		DeleteObject(oldBitmap);
 		ReleaseDC(m_Handle, windowDC);
 
+		Show();
+	}
+
+	void WindowsWindow::DrawFrameBuffer(const FrameBuffer& frameBuffer)
+	{
+		//尽可能显示
+		const int fWidth = frameBuffer.GetWidth();
+		const int fHeight = frameBuffer.GetHeight();
+		const int width = (m_Width < fWidth) ? m_Width : fWidth;
+		const int height = (m_Height < fHeight) ? m_Height : fHeight;
+
+		for (int i = 0; i < height;i++)
+		{
+			for (int j = 0; j < width; j++)
+			{
+				//反转RGB显示,因为windows的原点在左上角，但是frameBuffer的原点在左下角
+				constexpr int channelCount = 3;
+				constexpr int rChannel =2;
+				constexpr int gChannel =1;
+				constexpr int bChannel =0;
+
+				Vector3 color = frameBuffer.GetColor(j, fHeight -1 -i);
+				const int pixStart = (i * m_Width + j) * channelCount;
+				const int rIndex = pixStart + rChannel;
+				const int gIndex = pixStart + gChannel;
+				const int bIndex = pixStart + bChannel;
+
+				m_Buffer[rIndex] = Float2UChar(color.X);
+				m_Buffer[gIndex] = Float2UChar(color.Y);
+				m_Buffer[bIndex] = Float2UChar(color.Z);
+			}
+		}
 		Show();
 	}
 }

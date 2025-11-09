@@ -8,10 +8,16 @@ set(CMAKE_CXX_STANDARD 17)
 set(HEADERS
 "src/Application.h"
 
- "src/Window.h" "src/WindowsWindow.h" "src/Base.h")
+ "src/Window.h"
+ "src/WindowsWindow.h" 
+ "src/Base.h" 
+ "src/FrameBuffer.h" 
+ "src/InputCodes.h" "src/Math.h")
 set(SOURCES
 "src/Main.cpp"
  "src/Application.cpp"
- "src/Window.cpp" "src/WindowsWindow.cpp")
+ "src/Window.cpp" 
+ "src/WindowsWindow.cpp" 
+ "src/FrameBuffer.cpp" "src/Math.cpp")
 set(TARGET C-RGS)
 add_executable(${TARGET} ${HEADERS} ${SOURCES} "src/Window.h")

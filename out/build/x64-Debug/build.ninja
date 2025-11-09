@@ -77,6 +77,20 @@ build CMakeFiles\C-RGS.dir\src\WindowsWindow.cpp.obj: CXX_COMPILER__C-RGS_unscan
   TARGET_COMPILE_PDB = CMakeFiles\C-RGS.dir\
   TARGET_PDB = C-RGS.pdb
 
+build CMakeFiles\C-RGS.dir\src\FrameBuffer.cpp.obj: CXX_COMPILER__C-RGS_unscanned_Debug F$:\C-RGS\src\FrameBuffer.cpp || cmake_object_order_depends_target_C-RGS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\C-RGS.dir
+  OBJECT_FILE_DIR = CMakeFiles\C-RGS.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\C-RGS.dir\
+  TARGET_PDB = C-RGS.pdb
+
+build CMakeFiles\C-RGS.dir\src\Math.cpp.obj: CXX_COMPILER__C-RGS_unscanned_Debug F$:\C-RGS\src\Math.cpp || cmake_object_order_depends_target_C-RGS
+  FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++17 -MDd
+  OBJECT_DIR = CMakeFiles\C-RGS.dir
+  OBJECT_FILE_DIR = CMakeFiles\C-RGS.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\C-RGS.dir\
+  TARGET_PDB = C-RGS.pdb
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target C-RGS
@@ -85,7 +99,7 @@ build CMakeFiles\C-RGS.dir\src\WindowsWindow.cpp.obj: CXX_COMPILER__C-RGS_unscan
 #############################################
 # Link the executable C-RGS.exe
 
-build C-RGS.exe: CXX_EXECUTABLE_LINKER__C-RGS_Debug CMakeFiles\C-RGS.dir\src\Main.cpp.obj CMakeFiles\C-RGS.dir\src\Application.cpp.obj CMakeFiles\C-RGS.dir\src\Window.cpp.obj CMakeFiles\C-RGS.dir\src\WindowsWindow.cpp.obj
+build C-RGS.exe: CXX_EXECUTABLE_LINKER__C-RGS_Debug CMakeFiles\C-RGS.dir\src\Main.cpp.obj CMakeFiles\C-RGS.dir\src\Application.cpp.obj CMakeFiles\C-RGS.dir\src\Window.cpp.obj CMakeFiles\C-RGS.dir\src\WindowsWindow.cpp.obj CMakeFiles\C-RGS.dir\src\FrameBuffer.cpp.obj CMakeFiles\C-RGS.dir\src\Math.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -MDd
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
