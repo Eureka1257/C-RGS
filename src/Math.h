@@ -114,6 +114,13 @@ namespace RGS
 	};
 
 	float Dot(const Vector3& left, const Vector3& right);
+	Vector3 Cross(const Vector3& left, const Vector3& right);	
+	Vector3 Normalize(Vector3 &v);
+	Vector3 operator+(const Vector3& left, const Vector3& right);
+	Vector3 operator-(const Vector3& left, const Vector3& right);
+	Vector3 operator/(const Vector3& left, const float right);
+	Vector3 operator*(const Vector3& left, const float right);
+	Vector3 operator*(const float left, const Vector3& right);
 	/// <summary>
 	/// 四维向量与矩阵的乘法
 	/// </summary>
@@ -183,7 +190,16 @@ namespace RGS
 	/// <param name="zAxis"></param>
 	/// <param name="eye"></param>
 	/// <returns></returns>
-	Matrix4x4 Natrix4x4LookAt(const Vector3& xAxis, const Vector3& yAxis, const Vector3& zAxis, const Vector3& eye);
+	Matrix4x4 Matrix4x4LookAt(const Vector3& xAxis, const Vector3& yAxis, const Vector3& zAxis, const Vector3& eye);
+	/// <summary>
+	/// 转换成裁剪空间的透视投影矩阵,这里是把物体的z值压缩到-1~1之间
+	/// </summary>
+	/// <param name="fovy"></param>
+	/// <param name="aspect"></param>
+	/// <param name=""></param>
+	/// <param name=""></param>
+	/// <returns></returns>
+	Matrix4x4 Matrix4x4Perspective(float fovy, float aspect, float near, float far);
 	/// <summary>
 	/// 将浮点数转换为 unsigned char 值。
 	/// </summary>

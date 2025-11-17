@@ -12,7 +12,7 @@ set(HEADERS
  "src/WindowsWindow.h" 
  "src/Base.h" 
  "src/FrameBuffer.h" 
- "src/InputCodes.h" "src/Math.h")
+ "src/InputCodes.h" "src/Math.h" "src/ShaderBase.h")
 set(SOURCES
 "src/Main.cpp"
  "src/Application.cpp"

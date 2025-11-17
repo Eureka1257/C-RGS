@@ -8,10 +8,45 @@ namespace RGS
 	{
 		return left.X * right.X + left.Y * right.Y + left.Z * right.Z;
 	}
+	Vector3 Cross(const Vector3& left, const Vector3& right)
+	{
+		return Vector3(
+			left.Y * right.Z - left.Z * right.Y,
+			left.Z * right.X - left.X * right.Z,
+			left.X * right.Y - left.Y * right.X
+		);
+	}	
+	Vector3 Normalize(Vector3 &v)
+	{
+		float len = (float)sqrt(Dot(v, v));
+		return v / len;
+	}
 	/*Matrix4x4::Matrix4x4(const Vector4& v0, const Vector4& v1, const Vector4& v2, const Vector4& v3)
 	{
 		
 	}*/
+	Vector3 operator+(const Vector3& left, const Vector3& right)
+	{
+		return { left.X + right.X, left.Y + right.Y, left.Z + right.Z };
+	}
+	Vector3 operator-(const Vector3& left, const Vector3& right)
+	{
+		return left + (-1.0f * right);
+	}
+	
+	Vector3 operator/(const Vector3& left, const float right)
+	{
+		return left * (1.0f / right);
+	}
+	Vector3 operator*(const Vector3& left, const float right)
+	{
+		return right * left;
+	}
+	Vector3 operator*(const float left, const Vector3& right)
+	{
+		return{left * right.X, left * right.Y, left * right.Z};
+	}
+
 	Vector4 operator*(const Matrix4x4& mat, const Vector4& vec)
 	{
 		Vector4 res;
@@ -41,6 +76,7 @@ namespace RGS
 		left = left * right;
 		return left;
 	}
+	
 
 	Matrix4x4 Matrix4x4Identity()
 	{
@@ -79,7 +115,7 @@ namespace RGS
 		return Matrix4x4({ c, -s,0,0 }, { s,c,0,0 }, { 0,0,1,0 }, { 0,0,0,1 });
 	}
 	
-	Matrix4x4 Natrix4x4LookAt(const Vector3& xAxis, const Vector3& yAxis, const Vector3& zAxis, const Vector3& eye)
+	Matrix4x4 Matrix4x4LookAt(const Vector3& xAxis, const Vector3& yAxis, const Vector3& zAxis, const Vector3& eye)
 	{
 		Matrix4x4 m = Matrix4x4Identity();
 		m.m[0][0] = xAxis.X;
@@ -100,20 +136,35 @@ namespace RGS
 
 		return m;
 	}
-	/// <summary>
-	/// 将float转换成UChar类型的函数
-	/// </summary>
-	/// <param name="f"></param>
-	/// <returns></returns>
+	Matrix4x4 Matrix4x4LookAt(const Vector3& eye, const Vector3& target, const Vector3& up)
+	{
+		Vector3 zAxis = Normalize(eye - target);
+		Vector3 xAxis = Normalize(Cross(up, zAxis));
+		Vector3 yAxis = Normalize(Cross(zAxis, xAxis));
+
+		return Matrix4x4LookAt(xAxis, yAxis, zAxis, eye);
+	}
+	Matrix4x4 Matrix4x4Perspective(float fovy, float aspect, float near, float far)
+	{
+		float z_range = far - near;
+		Matrix4x4 m = Matrix4x4Identity();
+		ASSERT(fovy > 0 && aspect > 0);
+		ASSERT(near > 0 && far > 0 && z_range > 0);
+		m.m[1][1] = 1 / (float)tan(fovy / 2);
+		m.m[0][0] = m.m[1][1] / aspect;
+		m.m[2][2] = -(near + far) / z_range;
+		m.m[2][3] = -2 * far * near / z_range;
+		m.m[3][2] = -1;
+		m.m[3][3] = 0;
+
+		return m;
+	}
+	
 	unsigned char Float2UChar(const float f)
 	{
 		return (unsigned char)(f * 255.0f);
 	}
-	/// <summary>
-	/// 将UChar类型转换成float的函数
-	/// </summary>
-	/// <param name="c"></param>
-	/// <returns></returns>
+	
 	float UChar2Float(const unsigned char c)
 	{
 		return (float)c / 255.0f;
