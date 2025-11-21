@@ -7,8 +7,10 @@
   },
   "ExpandedNodes": [
     "",
-    "\\src"
+    "\\src",
+    "\\src\\RGS",
+    "\\src\\RGS\\Shaders"
   ],
-  "SelectedNode": "\\src\\ShaderBase.h",
+  "SelectedNode": "\\src\\RGS\\Shaders\\BlinnShader.cpp",
   "PreviewInSolutionExplorer": false
 }

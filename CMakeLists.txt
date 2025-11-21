@@ -6,18 +6,29 @@ project(RGS LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 
 set(HEADERS
-"src/Application.h"
-
- "src/Window.h"
- "src/WindowsWindow.h" 
- "src/Base.h" 
- "src/FrameBuffer.h" 
- "src/InputCodes.h" "src/Math.h" "src/ShaderBase.h")
+ "src/RGS/Application.h"
+ "src/RGS/Window.h"
+ "src/RGS/WindowsWindow.h" 
+ "src/RGS/Base.h" 
+ "src/RGS/FrameBuffer.h" 
+ "src/InputCodes.h" 
+ "src/RGS/Maths.h" 
+ "src/RGS/Renderer.h"
+ "src/RGS/Shaders/ShaderBase.h"
+ "src/RGS/Shaders/BlinnShader.h")
 set(SOURCES
-"src/Main.cpp"
- "src/Application.cpp"
- "src/Window.cpp" 
- "src/WindowsWindow.cpp" 
- "src/FrameBuffer.cpp" "src/Math.cpp")
+ "src/RGS/Main.cpp"
+ "src/RGS/Application.cpp"
+ "src/RGS/Window.cpp" 
+ "src/RGS/WindowsWindow.cpp" 
+ "src/RGS/FrameBuffer.cpp" 
+ "src/RGS/Maths.cpp" "src/RGS/Shaders/BlinnShader.cpp")
+
+ set(INCLUDE_PATH
+	"src"
+)
+
 set(TARGET C-RGS)
-add_executable(${TARGET} ${HEADERS} ${SOURCES} "src/Window.h")
+add_executable(${TARGET} ${HEADERS} ${SOURCES} )
+target_include_directories(${TARGET} PRIVATE ${INCLUDE_PATH})
+
