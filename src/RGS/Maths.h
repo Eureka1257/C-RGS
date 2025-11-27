@@ -1,9 +1,12 @@
 #pragma once
 #include<string>
 
+#define PI 3.14159265359
+#define EPISILON 1e-5f
+
 namespace RGS 
 {
-#define PI 3.14f
+
 	struct Vector2 
 	{
 		float X, Y;
@@ -116,12 +119,26 @@ namespace RGS
 
 	float Dot(const Vector3& left, const Vector3& right);
 	Vector3 Cross(const Vector3& left, const Vector3& right);	
+
+	Vector2 operator-(const Vector2& left, const Vector4& right);
+
 	Vector3 Normalize(Vector3 &v);
 	Vector3 operator+(const Vector3& left, const Vector3& right);
 	Vector3 operator-(const Vector3& left, const Vector3& right);
-	Vector3 operator/(const Vector3& left, const float right);
-	Vector3 operator*(const Vector3& left, const float right);
 	Vector3 operator*(const float left, const Vector3& right);
+	Vector3 operator*(const Vector3& left, const float right);
+	Vector3 operator/(const Vector3& left, const float right);
+	
+	
+
+	//Vector4的加减乘除
+	Vector4 operator+(const Vector4& left, const Vector4& right);
+	Vector4 operator-(const Vector4& left, const Vector4& right);
+	Vector4 operator*(const float left, const Vector4 right);
+	Vector4 operator*(const Vector4& left, const float right);
+	Vector4 operator/(const Vector4& left, const float right);
+	
+	
 	/// <summary>
 	/// 四维向量与矩阵的乘法
 	/// </summary>
@@ -216,4 +233,6 @@ namespace RGS
 	/// <param name="c"></param>
 	/// <returns></returns>
 	float UChar2Float(const unsigned char c);
+
+	float Clamp(const float val, const float min, const float max);
 }

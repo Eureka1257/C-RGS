@@ -2,12 +2,13 @@
 #include<memory>
 #include<iostream>
 
+#include"RGS/Maths.h"
 #include"RGS/Application.h"
 #include"RGS/Window.h"
 #include"RGS/FrameBuffer.h"
 #include"RGS/Renderer.h"
 #include"RGS/Shaders/BlinnShader.h"
-#include"RGS/Maths.h"
+
 
 namespace RGS
 {
@@ -66,18 +67,20 @@ namespace RGS
 		}
 		
 		FrameBuffer frameBuffer(m_Width, m_Height);
-		frameBuffer.Clear({1.0f, 0.0f, 1.0f});
-		m_Window->DrawFrameBuffer(frameBuffer);
+		frameBuffer.Clear({0.0f, 0.0f, 0.0f});
+		
 
-		Program program(BlinnVertexShader);
+		Program program(BlinnVertexShader, BlinnFragmentShader);
 		Triangle<BlinnVertex> tri;
-		tri[0].ModelPos = { -5.0f, 5.0f, -5.0f, 1.0f };
-		tri[1].ModelPos = { -5.0f, -5.0f, -5.0f, 1.0f };
-		tri[2].ModelPos = {30.0f, -5.0f, -5.0f, 1.0f };
+		tri[0].ModelPos = { 0.0f, 0.0f, -8.0f, 1.0f };
+		tri[1].ModelPos = { -10.0f, -10.0f, -10.0f, 1.0f };
+		tri[2].ModelPos = {30.0f, -10.0f, -10.0f, 1.0f };
 
 		BlinnUniforms uniforms;
 		uniforms.MVP = Matrix4x4Perspective(90.0f / 180.0f * PI, 1.0f, 1.0f, 10.0f);
 
 		Renderer::Draw(frameBuffer, program, tri, uniforms);
+
+		m_Window->DrawFrameBuffer(frameBuffer);
 	}
 }

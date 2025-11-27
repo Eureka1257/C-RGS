@@ -7,16 +7,24 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Renderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Maths.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Maths.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Renderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Application.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\FrameBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\FrameBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Shaders\\ShaderBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Shaders\\ShaderBase.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Shaders\\BlinnShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -27,40 +35,16 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Maths.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\InputCodes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\InputCodes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Shaders\\BlinnShader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Maths.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Maths.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\WindowsWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\WindowsWindow.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\FrameBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\FrameBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Window.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -71,12 +55,32 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\WindowsWindow.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\FrameBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\FrameBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Application.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\FrameBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\FrameBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Window.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Base.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\InputCodes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\InputCodes.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:CMakeLists.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\C-RGS\\src\\RGS\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\RGS\\Main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,76 +90,38 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "WindowsWindow.cpp",
-              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\WindowsWindow.cpp",
-              "RelativeDocumentMoniker": "src\\RGS\\WindowsWindow.cpp",
-              "ToolTip": "F:\\C-RGS\\src\\RGS\\WindowsWindow.cpp",
-              "RelativeToolTip": "src\\RGS\\WindowsWindow.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-06T14:13:33.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "Window.cpp",
-              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Window.cpp",
-              "RelativeDocumentMoniker": "src\\RGS\\Window.cpp",
-              "ToolTip": "F:\\C-RGS\\src\\RGS\\Window.cpp",
-              "RelativeToolTip": "src\\RGS\\Window.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-06T13:59:04.843Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BlinnShader.cpp",
-              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.cpp",
-              "RelativeDocumentMoniker": "src\\RGS\\Shaders\\BlinnShader.cpp",
-              "ToolTip": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.cpp",
-              "RelativeToolTip": "src\\RGS\\Shaders\\BlinnShader.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-21T02:58:56.434Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "BlinnShader.h",
-              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.h",
-              "RelativeDocumentMoniker": "src\\RGS\\Shaders\\BlinnShader.h",
-              "ToolTip": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.h",
-              "RelativeToolTip": "src\\RGS\\Shaders\\BlinnShader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "Maths.h",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Maths.h",
+              "RelativeDocumentMoniker": "src\\RGS\\Maths.h",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\Maths.h",
+              "RelativeToolTip": "src\\RGS\\Maths.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-21T02:15:51.924Z",
+              "WhenOpened": "2025-11-08T17:18:40.968Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "WindowsWindow.h",
-              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\WindowsWindow.h",
-              "RelativeDocumentMoniker": "src\\RGS\\WindowsWindow.h",
-              "ToolTip": "F:\\C-RGS\\src\\RGS\\WindowsWindow.h",
-              "RelativeToolTip": "src\\RGS\\WindowsWindow.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-06T13:45:33.469Z",
-              "EditorCaption": ""
+              "Title": "Window.cpp",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Window.cpp",
+              "RelativeDocumentMoniker": "src\\RGS\\Window.cpp",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\Window.cpp",
+              "RelativeToolTip": "src\\RGS\\Window.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-06T13:59:04.843Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
@@ -165,20 +131,20 @@
               "RelativeDocumentMoniker": "src\\RGS\\Application.cpp",
               "ToolTip": "F:\\C-RGS\\src\\RGS\\Application.cpp",
               "RelativeToolTip": "src\\RGS\\Application.cpp",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAE4AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAewFEAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-06T09:45:51.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Maths.cpp",
               "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Maths.cpp",
               "RelativeDocumentMoniker": "src\\RGS\\Maths.cpp",
               "ToolTip": "F:\\C-RGS\\src\\RGS\\Maths.cpp",
               "RelativeToolTip": "src\\RGS\\Maths.cpp",
-              "ViewState": "AgIAAIUAAAAAAAAAAAAvwDgAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwBoAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-08T17:19:13.728Z",
               "EditorCaption": ""
@@ -191,40 +157,53 @@
               "RelativeDocumentMoniker": "src\\RGS\\Renderer.h",
               "ToolTip": "F:\\C-RGS\\src\\RGS\\Renderer.h",
               "RelativeToolTip": "src\\RGS\\Renderer.h",
-              "ViewState": "AgIAAMoAAAAAAAAAAAAWwNoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAnwCYBAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-21T02:16:51.873Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
+              "Title": "BlinnShader.cpp",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.cpp",
+              "RelativeDocumentMoniker": "src\\RGS\\Shaders\\BlinnShader.cpp",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.cpp",
+              "RelativeToolTip": "src\\RGS\\Shaders\\BlinnShader.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAgwBEAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-21T02:58:56.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BlinnShader.h",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.h",
+              "RelativeDocumentMoniker": "src\\RGS\\Shaders\\BlinnShader.h",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\Shaders\\BlinnShader.h",
+              "RelativeToolTip": "src\\RGS\\Shaders\\BlinnShader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABpAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-21T02:15:51.924Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ShaderBase.h",
               "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Shaders\\ShaderBase.h",
               "RelativeDocumentMoniker": "src\\RGS\\Shaders\\ShaderBase.h",
               "ToolTip": "F:\\C-RGS\\src\\RGS\\Shaders\\ShaderBase.h",
               "RelativeToolTip": "src\\RGS\\Shaders\\ShaderBase.h",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAWwBEAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-11-17T12:16:14.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Maths.h",
-              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Maths.h",
-              "RelativeDocumentMoniker": "src\\RGS\\Maths.h",
-              "ToolTip": "F:\\C-RGS\\src\\RGS\\Maths.h",
-              "RelativeToolTip": "src\\RGS\\Maths.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-08T17:18:40.968Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 15,
               "Title": "Base.h",
               "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Base.h",
               "RelativeDocumentMoniker": "src\\RGS\\Base.h",
@@ -232,25 +211,74 @@
               "RelativeToolTip": "src\\RGS\\Base.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-06T14:25:35.72Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T14:25:35.72Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 10,
               "Title": "FrameBuffer.cpp",
               "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\FrameBuffer.cpp",
               "RelativeDocumentMoniker": "src\\RGS\\FrameBuffer.cpp",
               "ToolTip": "F:\\C-RGS\\src\\RGS\\FrameBuffer.cpp",
               "RelativeToolTip": "src\\RGS\\FrameBuffer.cpp",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAACgAAAAAAAAAAAAvwB0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-08T16:17:15.735Z",
+              "WhenOpened": "2025-11-08T16:17:15.735Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrameBuffer.h",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\FrameBuffer.h",
+              "RelativeDocumentMoniker": "src\\RGS\\FrameBuffer.h",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\FrameBuffer.h",
+              "RelativeToolTip": "src\\RGS\\FrameBuffer.h",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAvwBEAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-08T16:16:59.403Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Renderer.cpp",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Renderer.cpp",
+              "RelativeDocumentMoniker": "src\\RGS\\Renderer.cpp",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\Renderer.cpp",
+              "RelativeToolTip": "src\\RGS\\Renderer.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-27T02:42:23.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WindowsWindow.h",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\WindowsWindow.h",
+              "RelativeDocumentMoniker": "src\\RGS\\WindowsWindow.h",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\WindowsWindow.h",
+              "RelativeToolTip": "src\\RGS\\WindowsWindow.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-11-06T13:45:33.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WindowsWindow.cpp",
+              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\WindowsWindow.cpp",
+              "RelativeDocumentMoniker": "src\\RGS\\WindowsWindow.cpp",
+              "ToolTip": "F:\\C-RGS\\src\\RGS\\WindowsWindow.cpp",
+              "RelativeToolTip": "src\\RGS\\WindowsWindow.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-11-06T14:13:33.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "InputCodes.h",
               "DocumentMoniker": "F:\\C-RGS\\src\\InputCodes.h",
               "RelativeDocumentMoniker": "src\\InputCodes.h",
@@ -258,21 +286,7 @@
               "RelativeToolTip": "src\\InputCodes.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-08T16:17:29.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "FrameBuffer.h",
-              "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\FrameBuffer.h",
-              "RelativeDocumentMoniker": "src\\RGS\\FrameBuffer.h",
-              "ToolTip": "F:\\C-RGS\\src\\RGS\\FrameBuffer.h",
-              "RelativeToolTip": "src\\RGS\\FrameBuffer.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-08T16:16:59.403Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-08T16:17:29.589Z"
             },
             {
               "$type": "Document",
@@ -284,25 +298,23 @@
               "RelativeToolTip": "src\\RGS\\Window.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-06T13:45:01.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T13:45:01.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Application.h",
               "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Application.h",
               "RelativeDocumentMoniker": "src\\RGS\\Application.h",
               "ToolTip": "F:\\C-RGS\\src\\RGS\\Application.h",
               "RelativeToolTip": "src\\RGS\\Application.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAEAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewBUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-11-06T13:17:18.483Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T13:17:18.483Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 19,
               "Title": "Main.cpp",
               "DocumentMoniker": "F:\\C-RGS\\src\\RGS\\Main.cpp",
               "RelativeDocumentMoniker": "src\\RGS\\Main.cpp",
@@ -310,12 +322,11 @@
               "RelativeToolTip": "src\\RGS\\Main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-06T09:43:21.365Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T09:43:21.365Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 18,
               "Title": "RGS.cpp",
               "DocumentMoniker": "F:\\C-RGS\\src\\RGS.cpp",
               "RelativeDocumentMoniker": "src\\RGS.cpp",
@@ -323,12 +334,11 @@
               "RelativeToolTip": "src\\RGS.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-11-06T09:38:35.007Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T09:38:35.007Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "F:\\C-RGS\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",

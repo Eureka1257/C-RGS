@@ -21,6 +21,11 @@ namespace RGS
 		float len = (float)sqrt(Dot(v, v));
 		return v / len;
 	}
+
+	Vector2 operator-(const Vector2& left, const Vector4& right)
+	{
+		return{ left.X - right.X, left.Y - right.Y };
+	}
 	/*Matrix4x4::Matrix4x4(const Vector4& v0, const Vector4& v1, const Vector4& v2, const Vector4& v3)
 	{
 		
@@ -46,6 +51,31 @@ namespace RGS
 	{
 		return{left * right.X, left * right.Y, left * right.Z};
 	}
+
+	//Vector4 +-*/
+	Vector4 operator+(const Vector4& left, const Vector4& right)
+	{
+		return { left.X + right.X, left.Y + right.Y, left.Z + right.Z ,left.W + right.W};
+	}
+	Vector4 operator-(const Vector4& left, const Vector4& right)
+	{
+		return left + (-1.0f * right);
+	}
+
+	Vector4 operator/(const Vector4& left, const float right)
+	{
+		ASSERT(right != 0);
+		return left * (1.0f / right);
+	}
+	Vector4 operator*(const Vector4& left, const float right)
+	{
+		return right * left;
+	}
+	Vector4 operator*(const float left, const Vector4 right)
+	{
+		return{ left * right.X, left * right.Y, left * right.Z, left * right.W };
+	}
+
 
 	Vector4 operator*(const Matrix4x4& mat, const Vector4& vec)
 	{
@@ -80,39 +110,39 @@ namespace RGS
 
 	Matrix4x4 Matrix4x4Identity()
 	{
-		return Matrix4x4({ 1,0,0,0 }, { 0,1,0,0 }, { 0,0,1,0 }, {0,0,0,1});
+		return Matrix4x4({ 1.0f,0.0f,0.0f,0.0f }, { 0.0f,1.0f,0.0f,0.0f }, { 0.0f,0.0f,1.0f,0.0f }, {0.0f,0.0f,0.0f,1.0f });
 	}
 	Matrix4x4 Matrix4x4Scale(const float sx, const float sy, const float sz)
 	{
 		Matrix4x4 m = Matrix4x4Identity();
 		ASSERT(sx != 0 && sy != 0 && sz != 0);
-		return Matrix4x4({ sx,0,0,0 }, { 0,sy,0,0 }, { 0,0,sz,0 }, { 0,0,0,1 });
+		return Matrix4x4({ sx,0.0f,0.0f,0.0f }, { 0.0f,sy,0.0f,0.0f }, { 0.0f,0.0f,sz,0.0f }, { 0.0f,0.0f,0.0f,1.0f });
 	}
 	Matrix4x4 Matrix4x4Translate(const float tx, const float ty, const float tz)
 	{
 		Matrix4x4 m = Matrix4x4Identity();
-		return Matrix4x4({ 1,0,0,tx }, { 0,1,0,ty }, { 0,0,1,tz }, { 0,0,0,1 });
+		return Matrix4x4({ 1.0f,0.0f,0.0f,tx }, { 0.0f,1.0f,0.0f,ty }, { 0.0f,0.0f,1.0f,tz }, { 0.0f,0.0f,0.0f,1.0f });
 	}
 	Matrix4x4 Matrix4x4RotateX(const float angle)
 	{
 		float c = (float)cos(angle);
 		float s = (float)sin(angle);
 
-		return Matrix4x4({ 1,0,0,0 }, { 0,c, -s,0 }, { 0,s,c,0 }, { 0,0,0,1 });
+		return Matrix4x4({ 1.0f,0.0f,0.0f,0.0f }, { 0.0f,c, -s,0.0f }, { 0.0f,s,c,0.0f }, { 0.0f,0.0f,0.0f,1.0f });
 	}
 	Matrix4x4 Matrix4x4RotateY(const float angle)
 	{
 		float c = (float)cos(angle);
 		float s = (float)sin(angle);
 
-		return Matrix4x4({ c,0,s,0 }, { 0,1,0,0 }, { -s,0,c,0 }, { 0,0,0,1 });
+		return Matrix4x4({ c,0.0f,s,0.0f }, { 0.0f,1.0f,0.0f,0.0f }, { -s,0.0f,c,0.0f }, { 0.0f,0.0f,0.0f,1.0f });
 	}
 	Matrix4x4 Matrix4x4RotateZ(const float angle)
 	{
 		float c = (float)cos(angle);
 		float s = (float)sin(angle);
 
-		return Matrix4x4({ c, -s,0,0 }, { s,c,0,0 }, { 0,0,1,0 }, { 0,0,0,1 });
+		return Matrix4x4({ c, -s,0.0f,0.0f }, { s,c,0.0f,0.0f }, { 0.0f,0.0f,1.0f,0.0f }, { 0.0f,0.0f,0.0f,1.0f });
 	}
 	
 	Matrix4x4 Matrix4x4LookAt(const Vector3& xAxis, const Vector3& yAxis, const Vector3& zAxis, const Vector3& eye)
@@ -177,5 +207,21 @@ namespace RGS
 	float UChar2Float(const unsigned char c)
 	{
 		return (float)c / 255.0f;
+	}
+
+	float Clamp(const float val, const float min, const float max)
+	{
+		if (val < min)
+		{
+			return min;
+		}
+		else if (val > max)
+		{
+			return max;
+		}
+		else
+		{
+			return val;
+		}
 	}
 }

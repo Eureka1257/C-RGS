@@ -1,6 +1,6 @@
 #pragma once
-#include"ShaderBase.h"
 
+#include"ShaderBase.h"
 #include"RGS/Maths.h"
 
 namespace RGS
@@ -23,4 +23,5 @@ namespace RGS
 	/// <param name="vertex"></param>
 	/// <param name="uniforms"></param>
 	void BlinnVertexShader(BlinnVaryings& varyings, const BlinnVertex& vertex, const BlinnUniforms& uniforms);
+	Vector4 BlinnFragmentShader(bool& discard, const BlinnVaryings& varyings, const BlinnUniforms& uniforms);
 }

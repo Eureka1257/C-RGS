@@ -22,7 +22,7 @@ set(SOURCES
  "src/RGS/Window.cpp" 
  "src/RGS/WindowsWindow.cpp" 
  "src/RGS/FrameBuffer.cpp" 
- "src/RGS/Maths.cpp" "src/RGS/Shaders/BlinnShader.cpp")
+ "src/RGS/Maths.cpp" "src/RGS/Shaders/BlinnShader.cpp" "src/RGS/Renderer.cpp")
 
  set(INCLUDE_PATH
 	"src"
